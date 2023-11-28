@@ -268,19 +268,11 @@
           <h4>Phone</h4>
           <p class="contact"><a href="tel:444-444-4444" class="contactdetails">444-444-4444</a></p>
 
-          <a href="#" id="back" data-role="button" data-icon="back">Back to Blog</a>
+          <a href="#" id="back" data-role="button" data-rel="back" data-icon="back">Back to Blog</a>
         </section>
 
         <footer data-role="footer"><h4>Krisanne Apostol &copy; 2023</h4></footer>
       </div>
     </div>
-
-    <script>
-      $(document).ready(function() {
-        $("#back").click(function() {
-          $.mobile.changePage("#blog");
-        });
-      });
-    </script>
   </body>
 </html>
